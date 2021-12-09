@@ -9,9 +9,18 @@
 </head>
 
 <body>
-   <div class="object">
-   <h1>Bee Movie Script</h1>
-   <hr>
+   <div class="view">
+      <div class="header">
+         <?php
+            $path = "/text/bee_movie.txt";
+
+            $filename = basename($path, ".txt");
+         ?>
+
+         <h1><?php echo $filename ?></h1>
+         <hr>
+      </div>
+
       <object data="/text/bee_movie.txt" type="text/plain" width="100%" height="100%">
          <a href="/text/bee_movie.txt">Error while trying to display file!</a>
       </object>
