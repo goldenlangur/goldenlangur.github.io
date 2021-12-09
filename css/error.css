@@ -5,14 +5,9 @@ body {
 
 .header {
     text-align: center;
-}
-
-.content {
-    height: 80vh;
-    width: 95vw;
-    margin: auto;
-}
-
-.footer {
-    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
