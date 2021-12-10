@@ -18,6 +18,10 @@
     <link rel="shortcut icon" href="media/favicon.png">
     <link href="css/error.css" rel="stylesheet" type="text/css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+
     <meta charset="utf-8">
     <title>Error <?php echo $errorid; ?> | Goldenlangur.github.io</title>
 </head>

@@ -18,6 +18,11 @@
 
     <link rel="shortcut icon" href="media/favicon.png">
     <link href="css/index.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
    
     <meta charset="utf-8">
     <title><?php echo $title; ?> | Goldenlangur.github.io</title>
