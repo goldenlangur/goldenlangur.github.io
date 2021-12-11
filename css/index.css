@@ -14,6 +14,8 @@
     /* Style color */
 --primary-style-color: #0f84c9;
 --secondary-style-color: #f47b04;
+
+--red-style-color: #ff4646;
 }
 
 .header.h1 {

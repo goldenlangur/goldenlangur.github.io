@@ -1,0 +1,28 @@
+:root {
+    /* Text color */
+--primary-text-color: black;
+--secondary-text-color: white;
+
+    /* Light Background color */
+--primary-light-bg-color: #ffffff;
+--secondary-light-bg-color: #EEEEEE;
+
+    /* Dark Background color */
+--primary-dark-bg-color: #2c2f33;
+--secondary-dark-bg-color: #000000;
+
+    /* Style color */
+--primary-style-color: #0f84c9;
+--secondary-style-color: #f47b04;
+
+--red-style-color: #ff4646;
+}
+
+.script-header {
+    position: sticky;
+    top: 0;
+}
+
+.script-container {
+    padding: 20px
+}

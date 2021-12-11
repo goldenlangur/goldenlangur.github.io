@@ -19,7 +19,7 @@
 }
 
 .view {
-    background-color: var(--red-style-color);
+    background-color: var(--secondary-light-bg-color);
 }
 
 .banner {
@@ -28,7 +28,7 @@
     font-size: 40px;
     line-height: 20px;
 
-    background-color: var(--primary-light-bg-color);
+    background-color: var(--primary-style-color);
     clip-path: polygon(
         0 calc(0% + 6vh),
         100% 0,
@@ -39,7 +39,7 @@
     position: relative;
     display: inline-block;
     width: 100%;
-    height: 90vh;
+    height: 89.6vh;
     padding-top: 30vh;
     margin: 0;
     -webkit-box-sizing: border-box;
@@ -47,15 +47,30 @@
     box-sizing: border-box;
 }
 
+.session-container {
+    font-size: 20px;
+
+    background-color: var(--primary-light-bg-color);
+
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+}
+
 .button-home {
-    color: var(--primary-light-bg-color);
+    color: var(--primary-style-color);
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 
-    background-color: var(--red-style-color);
-    border: 2px solid var(--primary-light-bg-color);
+    background-color: var(--secondary-light-bg-color);
+    border: 2px solid var(--primary-style-color);
 
     padding: 10px 24px;
     position: absolute;
@@ -68,8 +83,8 @@
 }
 
 .button-home:hover {
-    color: var(--red-style-color);
-    background-color: var(--primary-light-bg-color);
+    color: var(--secondary-light-bg-color);
+    background-color: var(--primary-style-color);
 }
 
 .spacing {

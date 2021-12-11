@@ -17,7 +17,8 @@
     ?>
 
     <link rel="shortcut icon" href="media/favicon.png">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/script.css" rel="stylesheet" type="text/css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,20 +31,15 @@
 
 <body>
     <div class="view">
-        <div class="header">
-            <h1><?php echo $title; ?></h1>
-            <hr>
+        <div class="script-header">
+        <?php include "ui/header.php"; ?>
         </div>
-
         <div class="content">
-            <object data=<?php echo $path; ?> type="text/plain" width="100%" height="100%">
-            </object>
+            <div class="script-container">
+                <p><?php echo nl2br(file_get_contents($path)); ?></p>
+            </div>
         </div>
-
-        <div class="footer">
-            <hr>
-            <p>© 2021 Liam & Vincent</p>
-        </div>
+        <?php include "ui/footer.php"; ?>
     </div>
 </body>
 </html>
